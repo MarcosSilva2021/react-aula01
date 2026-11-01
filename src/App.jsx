@@ -1,23 +1,13 @@
-const OlaMundo = () => {
-  return (
-    <h1>hello Dev</h1>
-  )
-}
-
-function Soma() {
-  const valor = 1 +1;
-  return (
-    <p>{valor}</p>
-  );
-}
+import Banner from "./components/Banner";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <>
-    <OlaMundo/>
-    <Soma/>    
+      <Header/>
+      <Banner/>
     </>
-  );
+    );
 }
-
+ 
 export default App;
