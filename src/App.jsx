@@ -1,5 +1,6 @@
 import Banner from "./components/Banner";
 import Card from "./components/Card";
+import CardDinamico from "./components/CardDinamico";
 import FromaDeBolo from "./components/FormaDeBolo";
 import Header from "./components/Header";
 import { Componente1, Componente2 } from "./components/VariosComponentes";
@@ -34,6 +35,18 @@ const App = () => {
         paragraph={"Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quia laborum sed, molestias voluptatibus eum quam consequuntur placeat temporibus natus voluptatem deserunt eius iste enim maiores optio mollitia cum excepturi."} 
       />
       
+      <CardDinamico>
+        <h1>Noticias 4</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwBg-DTLOdKR3vqhNKwus_TI8HPaRQX1Fi8R9kl0mQBA&s=10" alt="" />
+        <h6>Esportes</h6>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, recusandae itaque voluptatum quidem voluptatibus iure ab inventore sequi optio pariatur cum autem ipsam quam molestias architecto quos amet incidunt earum?</p>
+      </CardDinamico>
+      <CardDinamico>
+        <h1>Noticias 4</h1>
+        <h6>Esportes</h6>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, recusandae itaque voluptatum quidem voluptatibus iure ab inventore sequi optio pariatur cum autem ipsam quam molestias architecto quos amet incidunt earum?</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwBg-DTLOdKR3vqhNKwus_TI8HPaRQX1Fi8R9kl0mQBA&s=10" alt="" />
+      </CardDinamico>
     </>
     );
 }
